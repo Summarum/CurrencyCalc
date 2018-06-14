@@ -1,5 +1,7 @@
 package com.summa.currencycalc;
 
+import java.io.IOException;
+import java.net.MalformedURLException;
 import javafx.application.Application;
 import static javafx.application.Application.launch;
 import javafx.fxml.FXMLLoader;
@@ -30,7 +32,9 @@ public class MainApp extends Application {
      *
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws MalformedURLException, IOException {
+              
+        
         launch(args);
     }
 

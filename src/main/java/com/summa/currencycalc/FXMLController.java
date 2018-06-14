@@ -17,6 +17,11 @@ public class FXMLController implements Initializable {
         System.out.println("You clicked me!");
         label.setText("Hello World!");
     }
+    @FXML
+    private void handleCickyAction(ActionEvent event){
+    
+    label.setText("Hello there~");
+    }
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {

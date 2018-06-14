@@ -6,10 +6,10 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="com.summa.currencycalc.FXMLController">
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.summa.currencycalc.FXMLController">
     <children>
         <Button fx:id="button" layoutX="14.0" layoutY="51.0" onAction="#handleButtonAction" text="Click Me!" />
         <Label fx:id="label" layoutX="12.0" layoutY="34.0" minHeight="16" minWidth="69" />
-      <Button layoutX="88.0" layoutY="51.0" mnemonicParsing="false" text="CLICKY!" />
+      <Button fx:id="clicky" layoutX="88.0" layoutY="51.0" mnemonicParsing="false" onAction="#handleCickyAction" text="CLICKY!" />
     </children>
 </AnchorPane>
